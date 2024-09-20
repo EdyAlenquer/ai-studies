@@ -64,6 +64,7 @@ I am making a conscious effort to use as few pre-built tools as possible to stre
 
 # LLMs
 
+- [x] Set up a server and use a local LLM 
 - [ ] BERT (Bidirectional Encoder Representations from Transformers)
 - [ ] Fine-tuning LLMs on custom tasks (e.g., sentiment analysis, Q&A systems)
 - [ ] Zero-shot and Few-shot Learning
@@ -86,14 +87,14 @@ I am making a conscious effort to use as few pre-built tools as possible to stre
 
 ## Activation Functions
 
-- [ ] ReLU, Leaky ReLU, ELU, SELU
-- [ ] Softmax
-- [ ] Sigmoid
+- [x] ReLU, Leaky ReLU, ELU, SELU
+- [x] Softmax
+- [x] Sigmoid
 
 ## Loss Functions
-- [ ] Cross-Entropy Loss
+- [x] Cross-Entropy Loss
 - [ ] Hinge Loss
-- [ ] Mean Squared Error (MSE)
+- [x] Mean Squared Error (MSE)
 
 ## Advanced Architectures
 - [ ] Autoencoders (for dimensionality reduction and anomaly detection)

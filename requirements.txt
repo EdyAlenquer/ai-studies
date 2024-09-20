@@ -1,5 +1,6 @@
 langchain
 langchain_openai
+langchain_ollama
 nltk
 openai
 python-dotenv

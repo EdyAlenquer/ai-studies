@@ -19,6 +19,11 @@ RUN apt-get update  \
         bash \
     && rm -rf /var/lib/apt/lists
 
+# Install Ollama and pull llama3.1:8b
+RUN curl -fsSL https://ollama.com/install.sh | sh
+RUN ollama serve
+RUN ollama pull llama3.1:8b
+
 # Upgrade pip
 RUN python3 -m pip install --upgrade pip
 
