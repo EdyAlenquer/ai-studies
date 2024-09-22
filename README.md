@@ -37,7 +37,7 @@ I am making a conscious effort to use as few pre-built tools as possible to stre
 - [ ] Hidden Markov Models (HMMs)
 - [ ] Latent Dirichlet Allocation (LDA)
 
-# NLP
+# NLP and LLMs
 
 - [ ] Tokenization, Lemmatization, and Stemming
 - [ ] Term Frequency-Inverse Document Frequency (TF-IDF)
@@ -52,6 +52,14 @@ I am making a conscious effort to use as few pre-built tools as possible to stre
 - [ ] Named Entity Recognition (NER)
 - [ ] Text Summarization
 - [ ] Machine Translation
+- [ ] LangChain (models, prompts, indexes, chains and agents)
+- [x] Set up a server and use a local LLM 
+- [ ] BERT (Bidirectional Encoder Representations from Transformers)
+- [ ] Fine-tuning LLMs on custom tasks (e.g., sentiment analysis, Q&A systems)
+- [ ] Zero-shot and Few-shot Learning
+- [ ] Prompt Engineering
+- [ ] Model Distillation (for making LLMs more efficient)
+- [ ] Quantization and Pruning for LLMs
 
 # Computer Vision
 
@@ -62,15 +70,7 @@ I am making a conscious effort to use as few pre-built tools as possible to stre
 - [ ] YOLO (You Only Look Once) for object detection
 - [ ] GANs (Generative Adversarial Networks) for image generation
 
-# LLMs
 
-- [x] Set up a server and use a local LLM 
-- [ ] BERT (Bidirectional Encoder Representations from Transformers)
-- [ ] Fine-tuning LLMs on custom tasks (e.g., sentiment analysis, Q&A systems)
-- [ ] Zero-shot and Few-shot Learning
-- [ ] Prompt Engineering
-- [ ] Model Distillation (for making LLMs more efficient)
-- [ ] Quantization and Pruning for LLMs
 
 # General Deep Learning Concepts
 
