@@ -8,21 +8,19 @@ WORKDIR /app
 
 # Install system dependencies
 RUN apt-get update  \
+    && apt-get upgrade -y \
     && apt-get install -y \
         git \
         python3-pip \
         python3-dev \
         python3-opencv \
+        libcairo2-dev \
+        pkg-config \ 
         libglib2.0-0 \
         curl \
         wget \
         bash \
     && rm -rf /var/lib/apt/lists
-
-# Install Ollama and pull llama3.1:8b
-RUN curl -fsSL https://ollama.com/install.sh | sh
-RUN ollama serve
-RUN ollama pull llama3.1:8b
 
 # Upgrade pip
 RUN python3 -m pip install --upgrade pip

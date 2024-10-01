@@ -3,6 +3,11 @@
 # install dev requirements
 pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --timeout 100 --no-cache-dir -r ./.devcontainer/dev-requirements.txt
 
+# Install Ollama and pull llama3.1:8b
+curl -fsSL https://ollama.com/install.sh | sh
+ollama serve
+ollama pull llama3.1:8b
+
 # cd /tmp
 
 # install docker to interact with the host if you plan to use remote docker inside the devcontainer
