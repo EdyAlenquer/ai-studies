@@ -14,7 +14,6 @@ prompt_template = ChatPromptTemplate.from_messages([
     ('user', '{input_text}')
 ])
 
-
 # Setup llama
 llm = ChatOllama(
     model='llama3.1:8b',
