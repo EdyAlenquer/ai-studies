@@ -2,9 +2,9 @@
     "name": "app",
     "dockerFile": "../Dockerfile",
     "overrideCommand": true,
-    "workspaceFolder": "/home/app",
+    "workspaceFolder": "/home/edyalenquer",
     "mounts": [
-        "source=${localWorkspaceFolder},target=/home/app,type=bind"
+        "source=${localWorkspaceFolder},target=/home/edyalenquer,type=bind"
     ],
     "runArgs": [
         "--gpus=all",
@@ -13,20 +13,26 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-azuretools.vscode-docker",
                 "github.copilot",
                 "eamodio.gitlens",
                 "ms-python.python",
-                "ms-python.vscode-pylance",
-                "ms-python.isort",
                 "ms-toolsai.jupyter",
-                "ms-toolsai.vscode-jupyter-cell-tags",
-                "ms-toolsai.jupyter-renderers",
-                "ms-toolsai.vscode-jupyter-slideshow",
-                "christian-kohler.path-intellisense",
+                "oderwat.indent-rainbow",
+                "ms-python.vscode-pylance",
+                "kevinrose.vsc-python-indent",
+                "iterative.dvc",
+                "mechatroner.rainbow-csv",
                 "mutantdino.resourcemonitor",
-                "redhat.vscode-yaml",
-                "mechatroner.rainbow-csv"
+                "grapecity.gc-excelviewer",
+                "streetsidesoftware.code-spell-checker"
+                // "ms-azuretools.vscode-docker",
+                // "ms-python.isort",
+                // "ms-toolsai.vscode-jupyter-cell-tags",
+                // "ms-toolsai.jupyter-renderers",
+                // "ms-toolsai.vscode-jupyter-slideshow",
+                // "christian-kohler.path-intellisense",
+                // "redhat.vscode-yaml",
+                
             ],
             "settings": {
                 "python.pythonPath": "/usr/local/bin/python",
